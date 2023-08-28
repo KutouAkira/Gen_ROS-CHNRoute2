@@ -42,11 +42,11 @@ jobs:
         uses: exuanbo/actions-deploy-gist@v1
         with:
           token: ${{ secrets.TOKEN }}
-          gist_id: 77d5f22f8d1228d4967448f6558dd0a3
+          gist_id: 47f0021ceaebee7c93a8c73f48bca77f
           file_path: chnroute2.rsc
       - name: Deploy chnroute2.diff.rsc
         uses: exuanbo/actions-deploy-gist@v1
         with:
           token: ${{ secrets.TOKEN }}
-          gist_id: 77d5f22f8d1228d4967448f6558dd0a3
+          gist_id: 47f0021ceaebee7c93a8c73f48bca77f
           file_path: chnroute2.diff.rsc
